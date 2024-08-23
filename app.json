@@ -1,11 +1,12 @@
 {
   "expo": {
+    "entryPoint": "./src/index.tsx",
     "name": "ReactNativeDemo",
     "slug": "reactnativedemo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "my-app",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -30,9 +31,6 @@
     "plugins": [
       "expo-router"
     ],
-    "experiments": {
-      "typedRoutes": true
-    },
     "extra": {
       "router": {
         "origin": false
